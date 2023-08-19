@@ -1,0 +1,430 @@
+[{
+  "_id": {
+    "$oid": "61aecd30ba39911dd80d0191"
+  },
+  "items": [
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ]
+  ],
+  "likes": [],
+  "dislikes": [],
+  "comments": [],
+  "name": "Games",
+  "updateDate": "never",
+  "views": 0,
+  "createdAt": {
+    "$date": "2021-12-07T02:55:44.112Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-07T02:55:44.112Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61aecd30ba39911dd80d0193"
+  },
+  "items": [
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ]
+  ],
+  "likes": [],
+  "dislikes": [],
+  "comments": [],
+  "name": "TV Shows",
+  "updateDate": "never",
+  "views": 0,
+  "createdAt": {
+    "$date": "2021-12-07T02:55:44.117Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-07T02:55:44.117Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61aecd30ba39911dd80d0195"
+  },
+  "items": [
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ]
+  ],
+  "likes": [],
+  "dislikes": [],
+  "comments": [],
+  "name": "Movies",
+  "updateDate": "never",
+  "views": 0,
+  "createdAt": {
+    "$date": "2021-12-07T02:55:44.123Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-07T02:55:44.123Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61aecd30ba39911dd80d0197"
+  },
+  "items": [
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ]
+  ],
+  "likes": [],
+  "dislikes": [],
+  "comments": [],
+  "name": "Wizards",
+  "updateDate": "never",
+  "views": 0,
+  "createdAt": {
+    "$date": "2021-12-07T02:55:44.127Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-07T02:55:44.127Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61aecd30ba39911dd80d0199"
+  },
+  "items": [
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ]
+  ],
+  "likes": [],
+  "dislikes": [],
+  "comments": [],
+  "name": "Phones",
+  "updateDate": "never",
+  "views": 0,
+  "createdAt": {
+    "$date": "2021-12-07T02:55:44.130Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-07T02:55:44.130Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61aecd30ba39911dd80d019b"
+  },
+  "items": [
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ]
+  ],
+  "likes": [],
+  "dislikes": [],
+  "comments": [],
+  "name": "Drinks",
+  "updateDate": "never",
+  "views": 0,
+  "createdAt": {
+    "$date": "2021-12-07T02:55:44.134Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-07T02:55:44.134Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61aecd30ba39911dd80d019d"
+  },
+  "items": [
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ]
+  ],
+  "likes": [],
+  "dislikes": [],
+  "comments": [],
+  "name": "Movies",
+  "updateDate": "never",
+  "views": 0,
+  "createdAt": {
+    "$date": "2021-12-07T02:55:44.139Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-07T02:55:44.139Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61aecd30ba39911dd80d019f"
+  },
+  "items": [
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ]
+  ],
+  "likes": [],
+  "dislikes": [],
+  "comments": [],
+  "name": "Games",
+  "updateDate": "never",
+  "views": 0,
+  "createdAt": {
+    "$date": "2021-12-07T02:55:44.142Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-07T02:55:44.142Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61aecd30ba39911dd80d01a1"
+  },
+  "items": [
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ]
+  ],
+  "likes": [],
+  "dislikes": [],
+  "comments": [],
+  "name": "Wizards",
+  "updateDate": "never",
+  "views": 0,
+  "createdAt": {
+    "$date": "2021-12-07T02:55:44.146Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-07T02:55:44.146Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61aecd30ba39911dd80d01a3"
+  },
+  "items": [
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ]
+  ],
+  "likes": [],
+  "dislikes": [],
+  "comments": [],
+  "name": "Movies",
+  "updateDate": "never",
+  "views": 0,
+  "createdAt": {
+    "$date": "2021-12-07T02:55:44.150Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-07T02:55:44.150Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61aecd30ba39911dd80d01a5"
+  },
+  "items": [
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ],
+    [
+      "",
+      "0"
+    ]
+  ],
+  "likes": [],
+  "dislikes": [],
+  "comments": [],
+  "name": "Planets",
+  "updateDate": "never",
+  "views": 0,
+  "createdAt": {
+    "$date": "2021-12-07T02:55:44.154Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-07T02:55:44.154Z"
+  },
+  "__v": 0
+}]

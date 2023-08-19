@@ -1,0 +1,505 @@
+:root {
+  /* 
+        FIRST WE'LL DEFINE OUR SWATCHES, i.e. THE COMPLEMENTARY
+        COLORS THAT WE'LL USE TOGETHER IN MULTIPLE PLACES THAT
+        TOGETHER WILL MAKE UP A GIVEN THEME
+    
+        @author McKilla Gorilla
+    */
+  --swatch-foundation: #FFFEC1;
+  --swatch-primary: #C4C4C4;
+  --swatch-complement: #e1e4cb;
+  --swatch-contrast: #111111;
+  --swatch-accent: #669966;
+  --swatch-status: #123456;
+  --my-font-family: "Robaaaoto";
+  --bounceEasing: cubic-bezier(0.51, 0.92, 0.24, 1.15);
+}
+
+/*The main background yellow color*/
+body {
+  background-color: var(--swatch-foundation);
+}
+
+/*body right under appBanner*/
+#root {
+  background-color: var(--swatch-primary);
+  font-family: "Lexend Exa";
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  height: 90%;
+  top: 5%;
+}
+
+#app-root {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+}
+
+/*Does nothing*/
+#top5-banner {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: 100%;
+  height: 10%;
+  float: left;
+  background-image: linear-gradient(to bottom, #b8b808, #636723);
+  color: white;
+  font-size: 48pt;
+  border-color: red;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+/*Does Nothing*/
+#splash-screen {
+  background-image: linear-gradient(to bottom, #b8b808, #636723);
+  color: white;
+  font-size: 5vw;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  height:70%;
+  text-align: center;
+  vertical-align: center;
+}
+
+#edit-toolbar {
+  background-color: "transparent";
+  float: right;
+}
+
+.top5-button,
+.top5-button-disabled {
+  font-size: 36pt;
+  border-width: 0px;
+  float: left;
+  color: black;
+  cursor: pointer;
+  opacity: 100%;
+}
+
+.top5-button:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.top5-button-disabled {
+  opacity: 0.25;
+  cursor: not-allowed;
+}
+
+#top5-list-selector {
+  position: absolute;
+  left: 0%;
+  top: 10%;
+  width: 100%;
+  height: 80%;
+  background-color: var(--swatch-primary);
+}
+
+/*Workspace right under AppBanner. Margins are set to be slightly inside*/
+#top5-workspace {
+  position: absolute;
+  left: 1.3%;
+  top: 10%;
+  width: 97.4%;
+  height: 87%;
+  background-color: var(--swatch-primary);
+  /*border: 1px solid black*/
+}
+
+#top5-workspace-editing {
+  position: absolute;
+  left: 1.3%;
+  top: 10%;
+  width: 97.4%;
+  height: 80%;
+  background-color: #D4D4F5;
+  border: 2px solid black;
+  border-radius: 25px;
+}
+
+/*Status bar css*/
+#top5-statusbar {
+  position: absolute;
+  left: 0%;
+  top: 91%;
+  width: 100%;
+  height: 10%;
+  background-color: #C4C4C4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30pt;
+  /*border: 1px solid black;*/
+  color: black
+}
+
+#list-selector-heading {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  font-size: 24pt;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#add-list-button {
+  float: left;
+}
+
+#list-selector-list {
+  position: absolute;
+  left: 0%;
+  top: 6%;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  flex-direction: column;
+}
+
+.list-card,
+.selected-list-card,
+.unselected-list-card {
+  font-size: 18pt;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.list-card:aria-disabled,
+.list-card[aria-disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  pointer-events: none;
+}
+
+.center {
+  margin: auto;
+  width: 60%;
+  border: 5px solid #FFFF00;
+  padding: 10px;
+}
+
+.unselected-list-card:hover {
+  cursor: pointer;
+  background-color: var(--swatch-contrast);
+  color: white;
+}
+
+.selected-list-card {
+  background-color: var(--swatch-accent);
+  color: white;
+}
+
+.unselected-list-card {
+  background-color: var(--swatch-complement);
+}
+
+.list-card-button {
+  float: right;
+  transform: scale(2);
+}
+
+/*#workspace-home,*/
+#workspace-edit {
+  position: absolute;
+  left: 2%;
+  top: 2%;
+  width: 95%;
+  height: 75%;
+}
+
+#expanded-card {
+  position: absolute;
+  width: 47.5%;
+  height: 76%;
+  background-color: #2C2F70;
+  border-radius: 15px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-family: "Robaaaoto";
+}
+
+#expanded-comments {
+  position: absolute;
+  right: 2%;
+  width: 47.5%;
+  height: 72%;
+  background-color: transparent;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-family: "Robaaaoto";
+  text-align: center;
+}
+
+.expanded-number {
+  position: relative;
+  display: flex;
+  font-size: 30pt;
+  justify-content: left;
+  text-align: center;
+  align-items: center;
+  left:40%;
+  width: 0%;
+  color: #D4AF37;
+  border-radius: 15px;
+  font-family: "Robaaaoto";
+}
+
+.expanded-item {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  left:2%;
+  width: 100%;
+  height:10%;
+  font-size: 30pt;
+  color: #D4AF37;
+  border-radius: 15px;
+  font-family: "Robaaaoto";
+}
+
+/* the dark blue rectangle underneath list name editing*/
+#edit-numbering {
+  position: absolute;
+  left: 0%;
+  top: 13%;
+  width: 102%;
+  height: 100%;
+  background-color: #2C2F70;
+  border-radius: 15px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-family: "Robaaaoto";
+}
+
+.item-number {
+  display: flex;
+  font-size: 35pt;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  width: 70%;
+  height:80%;
+  border-color: #2C2F70;
+  background-color: #D4AF37;
+  color: black;
+  border-radius: 15px;
+  font-family: "Robaaaoto";
+}
+
+.top5-item {
+  display: flex;
+  font-size: 35pt;
+  justify-content: left;
+  text-align: left;
+  align-items: left;
+  left:10%;
+  width: 98%;
+  height:80%;
+  border-color: #2C2F70;
+  background-color: #D4AF37;
+  color: black;
+  border-radius: 15px;
+  padding: left 10px;
+  font-family: "Robaaaoto";
+}
+
+
+
+/* THIS STYLE SHEET MANAGES STYLE FOR OUR MODAL, i.e. DIALOG BOX */
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: var(--black);
+  color: var(--swatch-text);
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.35s ease-in;
+  font-family: var(--font-primary);
+}
+
+.modal.is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal-dialog {
+  position: relative;
+  max-width: 800px;
+  max-height: 80vh;
+  background: var(--swatch-complement);
+  overflow: auto;
+  cursor: default;
+  border-width: 5px;
+  border-radius: 10px;
+  border-style: groove;
+}
+
+.modal-dialog > * {
+  padding: 1rem;
+}
+
+.modal-header,
+.modal-footer {
+  background: var(--lightgray);
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: dotted;
+}
+
+.modal-header,
+.modal-close {
+  font-size: 1.5rem;
+}
+
+.modal p + p {
+  margin-top: 1rem;
+}
+
+.modal-control {
+  cursor: pointer;
+  width: 20%;
+}
+
+.dialog-header {
+  font-size: 24pt;
+}
+
+#close-modal-button {
+  float: right;
+}
+
+#confirm-cancel-container {
+  text-align: center;
+}
+
+/* ANIMATIONS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+[data-animation] .modal-dialog {
+  opacity: 0;
+  transition: all 0.5s var(--bounceEasing);
+}
+
+[data-animation].is-visible .modal-dialog {
+  opacity: 1;
+  transition-delay: 0.2s;
+}
+
+[data-animation="slideInOutDown"] .modal-dialog {
+  transform: translateY(100%);
+}
+
+[data-animation="slideInOutTop"] .modal-dialog {
+  transform: translateY(-100%);
+}
+
+[data-animation="slideInOutLeft"] .modal-dialog {
+  transform: translateX(-100%);
+}
+
+[data-animation="slideInOutRight"] .modal-dialog {
+  transform: translateX(100%);
+}
+
+[data-animation="zoomInOut"] .modal-dialog {
+  transform: scale(0.2);
+}
+
+[data-animation="rotateInOutDown"] .modal-dialog {
+  transform-origin: top left;
+  transform: rotate(-1turn);
+}
+
+[data-animation="mixInAnimations"].is-visible .modal-dialog {
+  animation: mixInAnimations 2s 0.2s linear forwards;
+}
+
+[data-animation="slideInOutDown"].is-visible .modal-dialog,
+[data-animation="slideInOutTop"].is-visible .modal-dialog,
+[data-animation="slideInOutLeft"].is-visible .modal-dialog,
+[data-animation="slideInOutRight"].is-visible .modal-dialog,
+[data-animation="zoomInOut"].is-visible .modal-dialog,
+[data-animation="rotateInOutDown"].is-visible .modal-dialog {
+  transform: none;
+}
+
+@keyframes mixInAnimations {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  10% {
+    transform: translateX(0);
+  }
+
+  20% {
+    transform: rotate(20deg);
+  }
+
+  30% {
+    transform: rotate(-20deg);
+  }
+
+  40% {
+    transform: rotate(15deg);
+  }
+
+  50% {
+    transform: rotate(-15deg);
+  }
+
+  60% {
+    transform: rotate(10deg);
+  }
+
+  70% {
+    transform: rotate(-10deg);
+  }
+
+  80% {
+    transform: rotate(5deg);
+  }
+
+  90% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}

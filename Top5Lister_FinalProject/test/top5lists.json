@@ -1,0 +1,377 @@
+[{
+  "_id": {
+    "$oid": "61ae79fbb214e615d8a52f60"
+  },
+  "items": [
+    "Valorant",
+    "League of Legends",
+    "Minecraft",
+    "Fallout 4",
+    "Fallout 3"
+  ],
+  "likes": [
+    "BobJones",
+    "sunbodi"
+  ],
+  "dislikes": [],
+  "comments": [
+    [
+      "sunbodi",
+      "insert comment text"
+    ],
+    [
+      "BobJones",
+      "texttexttext"
+    ],
+    [
+      "sunbodi",
+      "testing"
+    ],
+    [
+      "sunbodi",
+      "testing"
+    ],
+    [
+      "sunbodi",
+      "fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+    ]
+  ],
+  "name": "Games",
+  "ownerEmail": "sungmo902@gmail.com",
+  "username": "sunbodi",
+  "publish": "Mon Dec 06 2021 17:32:50 GMT-0500 (Eastern Standard Time)",
+  "views": 21,
+  "createdAt": {
+    "$date": "2021-12-06T21:00:43.816Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-07T02:31:09.981Z"
+  },
+  "__v": 19
+},{
+  "_id": {
+    "$oid": "61ae7a23b214e615d8a52f66"
+  },
+  "items": [
+    "Arcane",
+    "The Office",
+    "Breaking Bad",
+    "The Flash",
+    "Sherlock"
+  ],
+  "likes": [
+    "HenGen"
+  ],
+  "dislikes": [
+    "BobJones",
+    "sunbodi"
+  ],
+  "comments": [],
+  "name": "TV Shows",
+  "ownerEmail": "sungmo902@gmail.com",
+  "username": "sunbodi",
+  "publish": "Mon Dec 06 2021 17:32:51 GMT-0500 (Eastern Standard Time)",
+  "views": 2,
+  "createdAt": {
+    "$date": "2021-12-06T21:01:23.463Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-06T23:08:03.109Z"
+  },
+  "__v": 5
+},{
+  "_id": {
+    "$oid": "61ae7a40b214e615d8a52f6c"
+  },
+  "items": [
+    "Jurassic Park",
+    "Batman Begins",
+    "Iron Man 3",
+    "Iron Man 2",
+    "Spiderman"
+  ],
+  "likes": [],
+  "dislikes": [
+    "BobJones",
+    "sunbodi"
+  ],
+  "comments": [],
+  "name": "Movies",
+  "ownerEmail": "sungmo902@gmail.com",
+  "username": "sunbodi",
+  "publish": "Mon Dec 06 2021 17:28:50 GMT-0500 (Eastern Standard Time)",
+  "views": 2,
+  "createdAt": {
+    "$date": "2021-12-06T21:01:52.169Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-06T23:17:51.187Z"
+  },
+  "__v": 3
+},{
+  "_id": {
+    "$oid": "61ae7ab0b214e615d8a52f72"
+  },
+  "items": [
+    "Gandalf",
+    "Harry Potter",
+    "Dumbledore",
+    "Voldemort",
+    "Ron Weasley"
+  ],
+  "likes": [],
+  "dislikes": [
+    "BobJones",
+    "sunbodi"
+  ],
+  "comments": [
+    [
+      "sunbodi",
+      "this is so fake"
+    ],
+    [
+      "sunbodi",
+      "not so uh huh"
+    ]
+  ],
+  "name": "Wizards",
+  "ownerEmail": "sungmo902@gmail.com",
+  "username": "sunbodi",
+  "publish": "Mon Dec 06 2021 16:32:50 GMT-0500 (Eastern Standard Time)",
+  "views": 0,
+  "createdAt": {
+    "$date": "2021-12-06T21:03:44.765Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-07T02:28:19.017Z"
+  },
+  "__v": 14
+},{
+  "_id": {
+    "$oid": "61ae7ae0b214e615d8a52f78"
+  },
+  "items": [
+    "iPhone",
+    "Android",
+    "Flip phone",
+    "smart",
+    "Blackberry"
+  ],
+  "likes": [
+    "sunbodi"
+  ],
+  "dislikes": [],
+  "comments": [],
+  "name": "Phones",
+  "ownerEmail": "sungmo902@gmail.com",
+  "username": "sunbodi",
+  "publish": "Mon Dec 06 2021 15:29:18 GMT-0500 (Eastern Standard Time)",
+  "views": 0,
+  "createdAt": {
+    "$date": "2021-12-06T21:04:32.282Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-06T23:07:59.797Z"
+  },
+  "__v": 3
+},{
+  "_id": {
+    "$oid": "61ae7af6b214e615d8a52f7e"
+  },
+  "items": [
+    "Fanta",
+    "Sprite",
+    "Pepsi",
+    "Ice tea",
+    "Lemonade"
+  ],
+  "likes": [
+    "BobJones",
+    "HenGen",
+    "sunbodi"
+  ],
+  "dislikes": [],
+  "comments": [],
+  "name": "Drinks",
+  "ownerEmail": "sungmo902@gmail.com",
+  "username": "sunbodi",
+  "publish": "Mon Dec 06 2021 17:32:50 GMT-0500 (Eastern Standard Time)",
+  "views": 1,
+  "createdAt": {
+    "$date": "2021-12-06T21:04:54.553Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-06T23:16:10.938Z"
+  },
+  "__v": 5
+},{
+  "_id": {
+    "$oid": "61ae7b0fb214e615d8a52f84"
+  },
+  "items": [
+    "Big cars",
+    "Small cars",
+    "",
+    "trucks",
+    "buses"
+  ],
+  "likes": [],
+  "dislikes": [],
+  "comments": [],
+  "name": "Cars",
+  "ownerEmail": "sungmo902@gmail.com",
+  "username": "sunbodi",
+  "publish": "unpublished",
+  "views": 0,
+  "createdAt": {
+    "$date": "2021-12-06T21:05:19.423Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-06T21:05:39.049Z"
+  },
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "61ae7b47b214e615d8a52f96"
+  },
+  "items": [
+    "Avengers",
+    "Spiderman",
+    "Jurassic Park",
+    "Get Out",
+    "Iron Man 3"
+  ],
+  "likes": [
+    "BobJones",
+    "sunbodi"
+  ],
+  "dislikes": [
+    "HenGen"
+  ],
+  "comments": [],
+  "name": "Movies",
+  "ownerEmail": "warmachine0902@gmail.com",
+  "username": "BobJones",
+  "publish": "Mon Dec 06 2021 17:32:50 GMT-0500 (Eastern Standard Time)",
+  "views": 3,
+  "createdAt": {
+    "$date": "2021-12-06T21:06:15.728Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-07T02:26:36.388Z"
+  },
+  "__v": 7
+},{
+  "_id": {
+    "$oid": "61ae7b72b214e615d8a52f9c"
+  },
+  "items": [
+    "Super Mario Bros",
+    "Mario Party",
+    "Pokemon",
+    "Valorant",
+    "League of Legends"
+  ],
+  "likes": [
+    "BobJones"
+  ],
+  "dislikes": [
+    "sunbodi"
+  ],
+  "comments": [],
+  "name": "Games",
+  "ownerEmail": "warmachine0902@gmail.com",
+  "username": "BobJones",
+  "publish": "Mon Dec 06 2021 17:32:50 GMT-0500 (Eastern Standard Time)",
+  "views": 6,
+  "createdAt": {
+    "$date": "2021-12-06T21:06:58.906Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-07T00:04:38.570Z"
+  },
+  "__v": 3
+},{
+  "_id": {
+    "$oid": "61ae7b91b214e615d8a52fa2"
+  },
+  "items": [
+    "Harry Potter",
+    "Hermione Granger",
+    "Gandalf",
+    "Dumbledore",
+    "Voldemort"
+  ],
+  "likes": [
+    "BobJones",
+    "sunbodi"
+  ],
+  "dislikes": [],
+  "comments": [],
+  "name": "Wizards",
+  "ownerEmail": "warmachine0902@gmail.com",
+  "username": "BobJones",
+  "publish": "Mon Dec 06 2021 17:32:50 GMT-0500 (Eastern Standard Time)",
+  "views": 0,
+  "createdAt": {
+    "$date": "2021-12-06T21:07:29.587Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-07T02:26:06.497Z"
+  },
+  "__v": 8
+},{
+  "_id": {
+    "$oid": "61ae7d32b214e615d8a53072"
+  },
+  "items": [
+    "Superman",
+    "Batman",
+    "Iron Man 3",
+    "Iron Man",
+    "Guardians of the Galaxy"
+  ],
+  "likes": [
+    "HenGen"
+  ],
+  "dislikes": [],
+  "comments": [],
+  "name": "Movies",
+  "ownerEmail": "henryemail.com",
+  "username": "HenGen",
+  "publish": "Mon Dec 06 2021 17:32:50 GMT-0500 (Eastern Standard Time)",
+  "views": 0,
+  "createdAt": {
+    "$date": "2021-12-06T21:14:26.984Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-06T21:14:52.904Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "61aecc48ba39911dd80d0181"
+  },
+  "items": [
+    "Earth",
+    "Jupiter",
+    "Saturn",
+    "THE SUN",
+    "Mars"
+  ],
+  "likes": [],
+  "dislikes": [],
+  "comments": [],
+  "name": "Planets",
+  "ownerEmail": "sungmo902@gmail.com",
+  "username": "sunbodi",
+  "publish": "Mon Dec 06 2021 21:52:21 GMT-0500 (Eastern Standard Time)",
+  "views": 0,
+  "createdAt": {
+    "$date": "2021-12-07T02:51:52.733Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-07T02:52:21.468Z"
+  },
+  "__v": 1
+}]
